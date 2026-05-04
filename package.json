@@ -1,0 +1,16 @@
+{
+  "name": "api_testing_strategy_booker",
+  "version": "1.0.0",
+  "description": "API Automation Framework | Restful-Booker",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run collections/restful_booker_strategy.json -e environments/restful_booker_prod.json -r cli,htmlextra --reporter-htmlextra-export docs/evidence/report.html"
+  },
+  "keywords": [],
+  "author": "Nayum",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^6.2.2",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
