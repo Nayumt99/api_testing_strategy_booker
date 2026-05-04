@@ -38,3 +38,6 @@ newman run "collections/restful_booker_strategy.json" \
   -e "environments/restful_booker_prod.json" \
   -r htmlextra \
   --reporter-htmlextra-export docs/evidence/report.html
+````
+
+![API Testing](https://github.com/Nayumt99/api_testing_strategy_booker/actions/workflows/main.yml/badge.svg)
